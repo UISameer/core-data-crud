@@ -1,17 +1,12 @@
 import Foundation
 import CoreData
 
-protocol EmployeeRepository {
-    func create(newEmployee: User)
-    func getAll() -> [User]?
-    func get(byIdentifier id: UUID) -> User?
-    func update(employee: User) -> Bool
-    func delete(record: User) -> Bool
+protocol EmployeeRepository: BaseRepository {
 }
 
 struct EmployeeDataRepository: EmployeeRepository {
     
-    func create(newEmployee: User) {
+    func create(record newEmployee: User) {
         
         let employee = Employee(context: PersistentStorage.shared.context)
         employee.email = newEmployee.email
@@ -43,8 +38,8 @@ struct EmployeeDataRepository: EmployeeRepository {
         return result?.convertToEmployee()
     }
     
-    func update(employee: User) -> Bool {
-        var emp = getEmployee(byIdentifier: employee.id)
+    func update(record employee: User) -> Bool {
+        let emp = getEmployee(byIdentifier: employee.id)
         guard emp != nil else {return false}
         
         emp?.email = employee.email

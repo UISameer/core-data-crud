@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0EB51A2B2217F200C5F974 /* Passport+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EB5162B2217F200C5F974 /* Passport+CoreDataClass.swift */; };
+		DC0EB51B2B2217F200C5F974 /* Passport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EB5172B2217F200C5F974 /* Passport+CoreDataProperties.swift */; };
+		DC0EB51C2B2217F200C5F974 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EB5182B2217F200C5F974 /* Employee+CoreDataClass.swift */; };
+		DC0EB51D2B2217F200C5F974 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EB5192B2217F200C5F974 /* Employee+CoreDataProperties.swift */; };
+		DC0EB51F2B22182F00C5F974 /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EB51E2B22182F00C5F974 /* Passport.swift */; };
 		DC1A16912B1A2ABF00857AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A16902B1A2ABF00857AE9 /* AppDelegate.swift */; };
 		DC1A16932B1A2ABF00857AE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1A16922B1A2ABF00857AE9 /* SceneDelegate.swift */; };
 		DC1A16982B1A2ABF00857AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1A16962B1A2ABF00857AE9 /* Main.storyboard */; };
@@ -14,8 +19,6 @@
 		DC1A169D2B1A2AC200857AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1A169C2B1A2AC200857AE9 /* Assets.xcassets */; };
 		DC1A16A02B1A2AC200857AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1A169E2B1A2AC200857AE9 /* LaunchScreen.storyboard */; };
 		DC55A25B2B2092B500184C92 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A25A2B2092B500184C92 /* PersistentStorage.swift */; };
-		DC55A26B2B20B38D00184C92 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A2692B20B38C00184C92 /* Employee+CoreDataClass.swift */; };
-		DC55A26C2B20B38D00184C92 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A26A2B20B38D00184C92 /* Employee+CoreDataProperties.swift */; };
 		DC55A26F2B20B3C300184C92 /* EmployeeDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A26E2B20B3C300184C92 /* EmployeeDataRepository.swift */; };
 		DC55A2732B20BCB500184C92 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A2722B20BCB500184C92 /* User.swift */; };
 		DC55A2762B20BF0800184C92 /* EmployeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A2752B20BF0800184C92 /* EmployeeManager.swift */; };
@@ -26,9 +29,16 @@
 		DC55A2842B20C71700184C92 /* EmployeeListVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A2822B20C71700184C92 /* EmployeeListVCExtension.swift */; };
 		DC55A2852B20C71700184C92 /* DetailsVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A2832B20C71700184C92 /* DetailsVCExtension.swift */; };
 		DC55A2872B20C75700184C92 /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55A2862B20C75700184C92 /* EmployeeListCell.swift */; };
+		DC7738912B2633B3008DBC2A /* PassportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7738902B2633B3008DBC2A /* PassportRepository.swift */; };
+		DC7738932B263483008DBC2A /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7738922B263483008DBC2A /* BaseRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC0EB5162B2217F200C5F974 /* Passport+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC0EB5172B2217F200C5F974 /* Passport+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC0EB5182B2217F200C5F974 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC0EB5192B2217F200C5F974 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC0EB51E2B22182F00C5F974 /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
 		DC1A168D2B1A2ABF00857AE9 /* crudCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crudCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1A16902B1A2ABF00857AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC1A16922B1A2ABF00857AE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +48,6 @@
 		DC1A169F2B1A2AC200857AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1A16A12B1A2AC200857AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC55A25A2B2092B500184C92 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
-		DC55A2692B20B38C00184C92 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		DC55A26A2B20B38D00184C92 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		DC55A26E2B20B3C300184C92 /* EmployeeDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataRepository.swift; sourceTree = "<group>"; };
 		DC55A2722B20BCB500184C92 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DC55A2752B20BF0800184C92 /* EmployeeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManager.swift; sourceTree = "<group>"; };
@@ -50,6 +58,8 @@
 		DC55A2822B20C71700184C92 /* EmployeeListVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListVCExtension.swift; sourceTree = "<group>"; };
 		DC55A2832B20C71700184C92 /* DetailsVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVCExtension.swift; sourceTree = "<group>"; };
 		DC55A2862B20C75700184C92 /* EmployeeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListCell.swift; sourceTree = "<group>"; };
+		DC7738902B2633B3008DBC2A /* PassportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportRepository.swift; sourceTree = "<group>"; };
+		DC7738922B263483008DBC2A /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,10 @@
 		DC55A2682B20B36A00184C92 /* CoreDataSupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				DC55A2692B20B38C00184C92 /* Employee+CoreDataClass.swift */,
-				DC55A26A2B20B38D00184C92 /* Employee+CoreDataProperties.swift */,
+				DC0EB5162B2217F200C5F974 /* Passport+CoreDataClass.swift */,
+				DC0EB5172B2217F200C5F974 /* Passport+CoreDataProperties.swift */,
+				DC0EB5182B2217F200C5F974 /* Employee+CoreDataClass.swift */,
+				DC0EB5192B2217F200C5F974 /* Employee+CoreDataProperties.swift */,
 			);
 			path = CoreDataSupportFiles;
 			sourceTree = "<group>";
@@ -113,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				DC55A26E2B20B3C300184C92 /* EmployeeDataRepository.swift */,
+				DC7738902B2633B3008DBC2A /* PassportRepository.swift */,
+				DC7738922B263483008DBC2A /* BaseRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -121,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				DC55A2722B20BCB500184C92 /* User.swift */,
+				DC0EB51E2B22182F00C5F974 /* Passport.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,21 +248,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0EB51C2B2217F200C5F974 /* Employee+CoreDataClass.swift in Sources */,
+				DC0EB51D2B2217F200C5F974 /* Employee+CoreDataProperties.swift in Sources */,
 				DC55A27D2B20C47100184C92 /* EmployeeListVC.swift in Sources */,
+				DC7738912B2633B3008DBC2A /* PassportRepository.swift in Sources */,
+				DC0EB51A2B2217F200C5F974 /* Passport+CoreDataClass.swift in Sources */,
 				DC55A26F2B20B3C300184C92 /* EmployeeDataRepository.swift in Sources */,
-				DC55A26B2B20B38D00184C92 /* Employee+CoreDataClass.swift in Sources */,
 				DC55A27B2B20C45F00184C92 /* DetailVC.swift in Sources */,
 				DC55A2762B20BF0800184C92 /* EmployeeManager.swift in Sources */,
 				DC55A2792B20C44900184C92 /* CreateNewEmployeeVC.swift in Sources */,
 				DC1A16912B1A2ABF00857AE9 /* AppDelegate.swift in Sources */,
 				DC1A169B2B1A2ABF00857AE9 /* crudCoreData.xcdatamodeld in Sources */,
 				DC55A2732B20BCB500184C92 /* User.swift in Sources */,
+				DC0EB51B2B2217F200C5F974 /* Passport+CoreDataProperties.swift in Sources */,
 				DC55A2802B20C62300184C92 /* Constant.swift in Sources */,
 				DC55A25B2B2092B500184C92 /* PersistentStorage.swift in Sources */,
+				DC7738932B263483008DBC2A /* BaseRepository.swift in Sources */,
 				DC1A16932B1A2ABF00857AE9 /* SceneDelegate.swift in Sources */,
 				DC55A2842B20C71700184C92 /* EmployeeListVCExtension.swift in Sources */,
+				DC0EB51F2B22182F00C5F974 /* Passport.swift in Sources */,
 				DC55A2872B20C75700184C92 /* EmployeeListCell.swift in Sources */,
-				DC55A26C2B20B38D00184C92 /* Employee+CoreDataProperties.swift in Sources */,
 				DC55A2852B20C71700184C92 /* DetailsVCExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

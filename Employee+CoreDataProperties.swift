@@ -1,11 +1,3 @@
-//
-//  Employee+CoreDataProperties.swift
-//  crudCoreData
-//
-//  Created by Sameer Personal on 12/6/23.
-//
-//
-
 import Foundation
 import CoreData
 
@@ -20,11 +12,13 @@ extension Employee {
     @NSManaged public var id: UUID?
     @NSManaged public var name: String?
     @NSManaged public var profilePic: Data?
+    @NSManaged public var toPassport: Passport?
     
     func convertToEmployee() -> User
     {
         return User(name: self.name, email: self.email, profilePicture: self.profilePic, id: self.id!)
     }
+    
     
 }
 
